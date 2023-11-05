@@ -71,7 +71,30 @@ main .row .prodotto .up .wishlist{
     position: absolute;
     top: 20px;
     right:0;
+    padding: 15px;
+    background-color: white;
 }
+main .row .prodotto .up .discount{
+    position: absolute;
+    background-color: red;
+    font-weight: bold;
+    left: 0;
+    bottom: 50px;
+    padding: 5px;
+    color: white;
+
+}
+main .row .prodotto .up .eco{
+    position: absolute;
+    background-color: green;
+    font-weight: bold;
+    bottom: 50px;
+    left: 50px;
+    padding: 5px;
+    color: white;
+
+}
+    
 
 /* footer */
 
