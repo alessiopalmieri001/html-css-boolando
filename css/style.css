@@ -13,23 +13,22 @@
 /* header */
 header{
     background-color:#ff6900;
-    max-height: 100px;
     
 }
 .bar-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0;
 
 }
 .bar-nav nav ul li a{
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 5px;
     color: white;
 }
-.bar-nav nav ul  {
-    list-style-type: none;
-    display: flex;
+.bar-nav nav ul li {
+    display: inline-block;
     
 }
 .bar-nav img{
@@ -37,6 +36,13 @@ header{
 }
 
 /* main */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1-3{
+    width: calc(100% / 3);
+}
 
 
 /* footer */
