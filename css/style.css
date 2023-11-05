@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
+header{
+    background-color:#ff6900;
+    max-height: 100px;
+    
+}
+.bar-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.bar-nav nav ul li a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+}
+.bar-nav nav ul  {
+    list-style-type: none;
+    display: flex;
+    
+}
+.bar-nav img{
+    height: 30px;
+}
+
+/* main */
+
+
+/* footer */
+
+
+
+/* debug */
