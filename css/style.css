@@ -83,6 +83,9 @@ main .row .prodotto .up .wishlist{
     padding: 15px;
     background-color: white;
 }
+main .row .prodotto .up .wishlist:hover{
+    color: red;
+}
 main .row .prodotto .up .targhette{
     position: absolute;
     left: 0;
@@ -104,11 +107,7 @@ main .row .prodotto .up .eco{
     color: white;
 
 }
-.rosso:hover {
-    color: red;
-    display: block;
 
-}
     
 
 /* footer */
