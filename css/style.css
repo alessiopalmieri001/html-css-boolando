@@ -63,10 +63,10 @@ main{
 main .row .prodotto .up img{
     width: 100%;
 }
-.prima-img:hover{
+.up:hover .prima-img{
     display: none;
 }
-.prima-img:hover + .seconda-img-hover {
+.up:hover .seconda-img-hover {
     display:block;
  }
 .seconda-img-hover {
@@ -102,6 +102,11 @@ main .row .prodotto .up .eco{
     font-weight: bold;
     padding: 5px;
     color: white;
+
+}
+.rosso:hover {
+    color: red;
+    display: block;
 
 }
     
